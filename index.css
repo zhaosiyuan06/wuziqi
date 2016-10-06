@@ -1,0 +1,280 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#canvasa {
+    float: right;
+}
+#canvas{
+    border: 3px solid black;
+    position: absolute;
+    /*background:#fb9934 ;*/
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    /*background: url("image/timg (5).jpg");*/
+}
+#renji{
+    cursor: pointer;
+    background:#8e7d52;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px;
+}
+#renji:hover{
+     background:#fff;
+     border: 1px solid #fff;
+ }
+.start:hover{
+    background:#fff;
+    border: 1px solid #fff;
+}
+.blackStart:hover{
+    background:#fff;
+    border: 1px solid #fff;
+}
+.active{
+    background:#8e7d52;
+    border: 1px solid #fff;
+}
+
+body{
+    width: 100%;
+    height:100%;
+    background: url("image/timg.jpg");
+    background-size:cover;
+}
+.start{
+    cursor: pointer;
+    background:#8e7d52;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    /*border:2px solid black;*/
+    box-shadow: red;
+    font-size: 20px;
+    margin: 30px;
+    border-radius:10px;
+    /*background: white;*/
+    box-shadow: #cccccc;
+}
+.blackStart{
+    cursor: pointer;
+    background:#8e7d52;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    /*border:2px solid black;*/
+    box-shadow: red;
+    font-size: 20px;
+    margin: 30px;
+    border-radius:10px;
+    /*background: white;*/
+    box-shadow: #cccccc;
+}
+#whiteTime{
+    width: 100px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    border:2px solid black;
+    /*box-shadow: red;*/
+    font-size: 20px;
+    margin: 30px;
+    border-radius:10px;
+    /*background: white;*/
+    box-shadow: #cccccc;
+}
+#blackTime{
+    width: 100px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    border:2px solid black;
+    /*box-shadow: red;*/
+    font-size: 20px;
+    margin: 30px;
+    border-radius:10px;
+    /*background: white;*/
+    box-shadow: #cccccc;
+}
+.left{
+    width: 300px;
+    /*height: 500px;*/
+    float: left;
+    /*background: pink;*/
+    margin-top: -300px;
+    margin-left: 20px;
+}
+.left .guize{
+    cursor: pointer;
+    background:#8e7d52;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px;
+}
+.left .content{
+    padding: 5px;
+    background:#8e7d52;
+    border-radius: 10px;
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: 2px dashed #8e7d52;
+
+}
+.left .content li{
+    line-height: 25px;
+    color: #fff;
+    font-size: 14px;
+}
+.left .guize:hover{
+    background:#fff;
+    border: 1px solid #fff;}
+.right{
+    width: 200px;
+    height: 500px;
+    /*background: blue;*/
+    float: right;
+    margin-right: 80px;
+  margin-top: -360px;
+}
+.alerts{
+    /*display: none;*/
+    transition: transform 1s ease;
+    transform: translate3d(-100px,-200px,0);
+    width: 200px;
+    height: 200px;
+    background: url("image/timg (9).jpg");
+    background-size: 200px;
+    z-index: 22;
+    font-size: 40px;
+    line-height: 200px;
+    text-align: center;
+    position: relative;
+
+}
+.alerts .sheng{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+.alerts .sheng:hover{
+    background: dodgerblue;
+}
+.alertss{
+    /*!*display: block;*!/*/
+    transform: translate3d(300px,150px,0);
+    width: 200px;
+    height: 200px;
+    background: url("image/timg (9).jpg");
+    background-size: 200px;
+    z-index: 22;
+    font-size: 40px;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+.alerta{
+    /*display: none;*/
+    transition: transform 1s ease;
+    transform: translate3d(-200px,0,0);
+    width: 200px;
+    height: 200px;
+    background: url("image/timg (9).jpg");
+    background-size: 200px;
+    z-index: 22;
+    font-size: 40px;
+    line-height: 200px;
+    text-align: center;
+    position: relative;
+
+}
+.alerta .sheng{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+.alerta .sheng:hover{
+    background: dodgerblue;
+}
+.alertaa{
+    /*!*display: block;*!/*/
+    transform: translate3d(300px,150px,0);
+    width: 200px;
+    height: 200px;
+    background: url("image/timg (9).jpg");
+    background-size: 200px;
+    z-index: 22;
+    font-size: 40px;
+    line-height: 200px;
+    text-align: center;
+}
+.b{
+  background: red;
+    float: right;
+    margin: 10px 35px;
+}
+.bai {
+    background: url(image/8.png) no-repeat center/100% 100%;
+    /*background-size: 20px;*/
+}
+.bai1{
+    /*float: right;*/
+    color: #fff;
+    font-size: 30px;
+    /*margin: 10px 115px;*/
+}
+.hei1{
+    color: #fff;
+    /*float: left;*/
+    font-size: 30px;
+}
+.h{
+    float: left;
+    margin: 10px 95px;
+}
+ .hei {
+     background: url(image/8.png) no-repeat center/100% 100%;
+
+ }

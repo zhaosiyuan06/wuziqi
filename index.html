@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<audio id="audio" src="aa.mp3" autoplay="autoplay" loop="loop"></audio>
+<audio id="audioa" src="a.mp3"></audio>
+<div class="back">
+    <div class="alerts">
+        <span>白棋赢!</span>
+        <div class="sheng">生成棋谱!</div>
+    </div>
+    <div class="alerta">
+        <span>黑棋赢!</span>
+        <div class="sheng">生成棋谱!</div>
+    </div>
+    <div class="left">
+        <div class="guize">游戏规则</div>
+        <div class="content">
+            <li>1 、五子棋是两个人之间进行的竞技活动，由于对黑方白方规则不同，黑棋必须先行。
+            <li>2 、五子棋专用盘为 15×15 ，五连子的方向为横、竖、斜。</li>
+            <li>3 、禁手是对局中被判为负的行棋手段。白棋无禁手</li>
+            <li>4 、在棋盘上以对局双方均不可能形成五连为和棋。</li>
+        </div>
+    </div>
+    <div class="right">
+		<div class="blackStart">游戏开始</div>
+        <div class="start">重新开始</div>
+        <div id="renji">人机对战</div>
+        白子：<div id="whiteTime">00:00</div>
+        黑子：<div id="blackTime">00:00</div>
+    </div>
+    <canvas width="600" height="600" id="canvas"></canvas>
+</div>
+
+</body>
+</html>
